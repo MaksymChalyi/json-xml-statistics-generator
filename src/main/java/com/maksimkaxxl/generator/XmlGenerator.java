@@ -9,9 +9,18 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Клас, що відповідає за генерацію XML-файлів для статистики.
+ */
 public class XmlGenerator {
     private static final String FOLDER_PATH_OUT_OF_XML = "src/main/resources/xml/";
 
+    /**
+     * Зберігає статистику у файл XML.
+     *
+     * @param attributeCountMap мапа, що містить значення атрибутів та їх кількість
+     * @param attributeName    ім'я атрибуту
+     */
     public static void saveStatisticsToFile(Map<String, Integer> attributeCountMap, String attributeName) {
         try {
             String fileName = "statistics_by_" + attributeName + ".xml";

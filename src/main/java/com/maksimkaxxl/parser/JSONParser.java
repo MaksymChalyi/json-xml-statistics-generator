@@ -16,6 +16,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
+
+/**
+ * Клас для парсингу JSON-файлів та отримання списку співробітників.
+ */
 public class JSONParser {
 
     private static final ObjectMapper objectMapper;
@@ -26,11 +30,18 @@ public class JSONParser {
         // без серіалізації. Це корисно, коли ви хочете використовувати pojo
         // для десеріалізації та дбає лише про частину json
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        // Ігноруйте нульові значення під час запису json.
+        // Ігнорувати нульові значення під час запису json.
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
         objectMapper = mapper;
     }
 
+
+    /**
+     * Парсить JSON-файли з вказаної теки та повертає список співробітників.
+     *
+     * @param folderPath Шлях до теки, в якій містяться JSON-файли.
+     * @return Список співробітників, які були прочитані з JSON-файлів.
+     */
     public static List<Employee> parseJsonFiles(String folderPath) {
         List<Employee> employees = new ArrayList<>();
         try {
@@ -50,6 +61,13 @@ public class JSONParser {
         return employees;
     }
 
+
+    /**
+     * Парсить окремий JSON-файл та повертає список співробітників.
+     *
+     * @param file JSON-файл для парсингу.
+     * @return Список співробітників, які були прочитані з JSON-файлу.
+     */
     private static List<Employee> parseJsonFile(File file) {
         List<Employee> employees = new ArrayList<>();
         try {

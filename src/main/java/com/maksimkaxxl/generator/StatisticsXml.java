@@ -7,6 +7,10 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Клас, що відповідає за створення структури XML для представлення статистики.
+ * Використовується для генерації XML-файлів зі статистичною інформацією.
+ */
 @JacksonXmlRootElement(localName = "statistics")
 public class StatisticsXml {
 
@@ -30,6 +34,10 @@ public class StatisticsXml {
         this.items.add(item);
     }
 
+/**
+ * Внутрішній клас, що представляє окремий елемент статистики.
+ * Кожен елемент має значення та кількість входжень.
+ */
     public static class Item {
         private String value;
         private int count;
