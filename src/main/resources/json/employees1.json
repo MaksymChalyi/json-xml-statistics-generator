@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Samuel",
+    "age": 33,
+    "position": "Registered Nurse",
+    "experienceYears": 6,
+    "interests": [
+      "Travelling"
+    ]
+  },
+  {
+    "name": "Gabriel",
+    "age": 53,
+    "position": "Software Engineer",
+    "experienceYears": 2,
+    "interests": [
+      "Snowboarding",
+      "Astrology"
+    ]
+  },
+  {
+    "name": "Elizabeth",
+    "age": 55,
+    "position": "Paralegal",
+    "experienceYears": 4,
+    "interests": [
+      "Travelling",
+      "Woodworking"
+    ]
+  },
+  {
+    "name": "Isaac",
+    "age": 32,
+    "position": "Professor",
+    "experienceYears": 6,
+    "interests": [
+      "Scuba Diving",
+      "Graphic Design"
+    ]
+  },
+  {
+    "name": "Matthew",
+    "age": 54,
+    "position": "Dentist",
+    "experienceYears": 1,
+    "interests": [
+      "Gardening",
+      "Hiking"
+    ]
+  },
+  {
+    "name": "Andrew",
+    "age": 58,
+    "position": "Architect",
+    "experienceYears": 2,
+    "interests": [
+      "Skydiving",
+      "Reading"
+    ]
+  },
+  {
+    "name": "Viktoria",
+    "age": 55,
+    "position": "Product Manager",
+    "experienceYears": 8,
+    "interests": [
+      "Singing",
+      "Running"
+    ]
+  },
+  {
+    "name": "Matthew",
+    "age": 39,
+    "position": "Software Engineer",
+    "experienceYears": 2,
+    "interests": [
+      "Skydiving",
+      "Skydiving"
+    ]
+  },
+  {
+    "name": "Natalie",
+    "age": 51,
+    "position": "Editor",
+    "experienceYears": 7,
+    "interests": [
+      "Drawing",
+      "Learning Languages"
+    ]
+  },
+  {
+    "name": "Julia",
+    "age": 56,
+    "position": "Photographer",
+    "experienceYears": 5,
+    "interests": [
+      "Playing Piano"
+    ]
+  },
+  {
+    "name": "Maria",
+    "age": 48,
+    "position": "Photographer",
+    "experienceYears": 9,
+    "interests": [
+      "Hiking",
+      "Photography"
+    ]
+  },
+  {
+    "name": "Mariia",
+    "age": 60,
+    "position": "Mobile App Developer",
+    "experienceYears": 9,
+    "interests": [
+      "Playing Chess"
+    ]
+  },
+  {
+    "name": "Jonathan",
+    "age": 47,
+    "position": "Marketing Manager",
+    "experienceYears": 7,
+    "interests": [
+      "Crime",
+      "Travelling"
+    ]
+  },
+  {
+    "name": "Isaac",
+    "age": 51,
+    "position": "Logistics Coordinator",
+    "experienceYears": 6,
+    "interests": [
+      "Fantasy",
+      "Listening to Music"
+    ]
+  },
+  {
+    "name": "Natalie",
+    "age": 33,
+    "position": "Photographer",
+    "experienceYears": 9,
+    "interests": [
+      "Drawing",
+      "Learning Languages"
+    ]
+  }
+]

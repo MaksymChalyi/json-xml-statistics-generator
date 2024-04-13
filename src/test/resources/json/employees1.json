@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Larysa",
+    "age": 40,
+    "position": "Electrical Engineer",
+    "experienceYears": 0,
+    "interests": [
+      "Knitting",
+      "Astrology"
+    ]
+  },
+  {
+    "name": "Brandon",
+    "age": 47,
+    "position": "Social Media Specialist",
+    "experienceYears": 5,
+    "interests": [
+      "Dancing",
+      "Running"
+    ]
+  },
+  {
+    "name": "Tetiana",
+    "age": 61,
+    "position": "Graphic Designer",
+    "experienceYears": 1,
+    "interests": [
+      "Writing",
+      "Astrology"
+    ]
+  },
+  {
+    "name": "Andrew",
+    "age": 55,
+    "position": "Financial Analyst",
+    "experienceYears": 6,
+    "interests": [
+      "Watching Movies",
+      "Comedy"
+    ]
+  },
+  {
+    "name": "Valeria",
+    "age": 57,
+    "position": "Social Media Specialist",
+    "experienceYears": 7,
+    "interests": [
+      "Skydiving"
+    ]
+  },
+  {
+    "name": "Polina",
+    "age": 63,
+    "position": "Network Administrator",
+    "experienceYears": 5,
+    "interests": [
+      "Paintball"
+    ]
+  },
+  {
+    "name": "Alexander",
+    "age": 37,
+    "position": "CTO",
+    "experienceYears": 2,
+    "interests": [
+      "Sailing",
+      "Antiquing"
+    ]
+  },
+  {
+    "name": "Nicholas",
+    "age": 51,
+    "position": "CFO",
+    "experienceYears": 3,
+    "interests": [
+      "Writing",
+      "Rock Climbing"
+    ]
+  },
+  {
+    "name": "Anthony",
+    "age": 28,
+    "position": "Mobile App Developer",
+    "experienceYears": 2,
+    "interests": [
+      "Graphic Design",
+      "Reading",
+      "Thriller"
+    ]
+  },
+  {
+    "name": "Ivanna",
+    "age": 31,
+    "position": "Business Development Manager",
+    "experienceYears": 6,
+    "interests": [
+      "Scuba Diving"
+    ]
+  },
+  {
+    "name": "Sophia",
+    "age": 47,
+    "position": "Logistics Coordinator",
+    "experienceYears": 8,
+    "interests": [
+      "Birdwatching",
+      "Meditation"
+    ]
+  },
+  {
+    "name": "Anna",
+    "age": 46,
+    "position": "Supply Chain Manager",
+    "experienceYears": 0,
+    "interests": [
+      "Graphic Design",
+      "Woodworking"
+    ]
+  },
+  {
+    "name": "Diana",
+    "age": 45,
+    "position": "Financial Analyst",
+    "experienceYears": 8,
+    "interests": [
+      "Hiking",
+      "Surfing",
+      "Skydiving"
+    ]
+  },
+  {
+    "name": "Ivanna",
+    "age": 49,
+    "position": "Web Developer",
+    "experienceYears": 6,
+    "interests": [
+      "Dancing",
+      "Drawing"
+    ]
+  },
+  {
+    "name": "Thomas",
+    "age": 50,
+    "position": "Accountant",
+    "experienceYears": 3,
+    "interests": [
+      "Gardening",
+      "Crime"
+    ]
+  }
+]
