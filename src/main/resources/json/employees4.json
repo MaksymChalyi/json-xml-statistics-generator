@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Irina",
+    "age": 56,
+    "position": "Logistics Coordinator",
+    "experienceYears": 6,
+    "interests": [
+      "Volunteering",
+      "Singing"
+    ],
+    "company": {
+      "name": "Nvidia",
+      "industry": "Healthcare"
+    }
+  }
+]

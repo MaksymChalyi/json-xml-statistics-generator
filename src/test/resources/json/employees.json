@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Joseph",
+    "age": 63,
+    "position": "Supply Chain Manager",
+    "experienceYears": 9,
+    "interests": [
+      "Collecting Stamps",
+      "Fashion Design"
+    ],
+    "company": {
+      "name": "Netflix",
+      "industry": "Media"
+    }
+  }
+]

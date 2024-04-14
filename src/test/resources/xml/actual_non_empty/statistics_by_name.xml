@@ -1,18 +1,94 @@
 <statistics>
   <item>
     <value>Julia</value>
+    <count>9</count>
+  </item>
+  <item>
+    <value>Viktoria</value>
+    <count>9</count>
+  </item>
+  <item>
+    <value>Robert</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>William</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>Maria</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>Sophia</value>
+    <count>8</count>
+  </item>
+  <item>
+    <value>John</value>
     <count>7</count>
+  </item>
+  <item>
+    <value>Elena</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Jonathan</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Liliia</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Anthony</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Khrystyna</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Valeria</value>
+    <count>7</count>
+  </item>
+  <item>
+    <value>Emily</value>
+    <count>6</count>
   </item>
   <item>
     <value>Polina</value>
     <count>6</count>
   </item>
   <item>
-    <value>Isaac</value>
+    <value>Henry</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>James</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Olivia</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Tetiana</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>David</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Matthew</value>
+    <count>6</count>
+  </item>
+  <item>
+    <value>Kateryna</value>
     <count>5</count>
   </item>
   <item>
-    <value>Elena</value>
+    <value>Samuel</value>
     <count>5</count>
   </item>
   <item>
@@ -24,39 +100,19 @@
     <count>5</count>
   </item>
   <item>
-    <value>Christopher</value>
+    <value>Thomas</value>
     <count>5</count>
   </item>
   <item>
-    <value>Anthony</value>
+    <value>Elizabeth</value>
     <count>5</count>
-  </item>
-  <item>
-    <value>Natalie</value>
-    <count>5</count>
-  </item>
-  <item>
-    <value>Viktoria</value>
-    <count>5</count>
-  </item>
-  <item>
-    <value>Valeria</value>
-    <count>5</count>
-  </item>
-  <item>
-    <value>Gabriel</value>
-    <count>5</count>
-  </item>
-  <item>
-    <value>Alexander</value>
-    <count>4</count>
   </item>
   <item>
     <value>Edward</value>
     <count>4</count>
   </item>
   <item>
-    <value>Emily</value>
+    <value>Oksana</value>
     <count>4</count>
   </item>
   <item>
@@ -64,115 +120,75 @@
     <count>4</count>
   </item>
   <item>
-    <value>Liliia</value>
-    <count>4</count>
-  </item>
-  <item>
-    <value>Thomas</value>
-    <count>4</count>
-  </item>
-  <item>
-    <value>Larysa</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Daniel</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>William</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Elizabeth</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Khrystyna</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Tetiana</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Joseph</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Matthew</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>Sophia</value>
-    <count>3</count>
-  </item>
-  <item>
-    <value>John</value>
-    <count>2</count>
-  </item>
-  <item>
-    <value>Robert</value>
-    <count>2</count>
-  </item>
-  <item>
     <value>Diana</value>
-    <count>2</count>
+    <count>4</count>
   </item>
   <item>
-    <value>James</value>
-    <count>2</count>
+    <value>Christopher</value>
+    <count>4</count>
   </item>
   <item>
     <value>Andrew</value>
-    <count>2</count>
+    <count>4</count>
   </item>
   <item>
-    <value>Nicholas</value>
-    <count>2</count>
+    <value>Daniel</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Joseph</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Gabriel</value>
+    <count>4</count>
+  </item>
+  <item>
+    <value>Alexander</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Isaac</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Irina</value>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Victoria</value>
+    <count>3</count>
   </item>
   <item>
     <value>Brandon</value>
-    <count>2</count>
+    <count>3</count>
+  </item>
+  <item>
+    <value>Benjamin</value>
+    <count>3</count>
   </item>
   <item>
     <value>Mariia</value>
-    <count>2</count>
+    <count>3</count>
   </item>
   <item>
-    <value>Anastasia</value>
-    <count>2</count>
-  </item>
-  <item>
-    <value>Maria</value>
-    <count>2</count>
-  </item>
-  <item>
-    <value>Kateryna</value>
-    <count>1</count>
-  </item>
-  <item>
-    <value>Samuel</value>
-    <count>1</count>
+    <value>Natalie</value>
+    <count>3</count>
   </item>
   <item>
     <value>Yulia</value>
     <count>1</count>
   </item>
   <item>
-    <value>Henry</value>
+    <value>Larysa</value>
     <count>1</count>
   </item>
   <item>
-    <value>Benjamin</value>
+    <value>Nicholas</value>
     <count>1</count>
   </item>
   <item>
-    <value>Olivia</value>
-    <count>1</count>
-  </item>
-  <item>
-    <value>David</value>
+    <value>Anastasia</value>
     <count>1</count>
   </item>
 </statistics>

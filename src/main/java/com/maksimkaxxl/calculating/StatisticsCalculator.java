@@ -43,12 +43,15 @@ public class StatisticsCalculator {
                 for (String interest : employee.interests()) {
                     attributeCountMap.merge(interest, 1, Integer::sum);
                 }
-            } else {
+            }/* else if (attributeName.equals("company")) {
+                
+            }*/ else {
                 String attributeValue = switch (attributeName) {
                     case "name" -> employee.name();
                     case "position" -> employee.position();
                     case "age" -> String.valueOf(employee.age());
                     case "experienceYears" -> String.valueOf(employee.experienceYears());
+                    case "company" -> employee.company().name();
                     default -> throw new IllegalArgumentException("Invalid attribute name");
                 };
                 attributeCountMap.merge(attributeValue, 1, Integer::sum);

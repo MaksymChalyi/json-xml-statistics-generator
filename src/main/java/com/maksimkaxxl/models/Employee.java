@@ -9,5 +9,6 @@ public record Employee(String name,
                        Integer age,
                        String position,
                        Integer experienceYears,
-                       List<String> interests) {
+                       List<String> interests,
+                       Company company) {
 }

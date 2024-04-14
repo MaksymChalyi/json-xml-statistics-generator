@@ -1,244 +1,720 @@
 [
   {
-    "name": "Viktoria",
-    "age": 54,
-    "position": "Supply Chain Manager",
-    "experienceYears": 8,
-    "interests": [
-      "Snowboarding",
-      "Antiquing"
-    ]
-  },
-  {
-    "name": "Anthony",
-    "age": 53,
-    "position": "Product Manager",
-    "experienceYears": 6,
-    "interests": [
-      "Fantasy"
-    ]
-  },
-  {
-    "name": "Natalie",
-    "age": 53,
-    "position": "System Administrator",
-    "experienceYears": 9,
-    "interests": [
-      "Cycling"
-    ]
-  },
-  {
-    "name": "Thomas",
-    "age": 43,
-    "position": "Business Development Manager",
-    "experienceYears": 9,
-    "interests": [
-      "Listening to Music",
-      "Dancing"
-    ]
-  },
-  {
-    "name": "Christopher",
-    "age": 43,
-    "position": "Social Media Specialist",
-    "experienceYears": 4,
-    "interests": [
-      "Meditation"
-    ]
-  },
-  {
-    "name": "Daniel",
-    "age": 28,
-    "position": "CEO",
-    "experienceYears": 4,
-    "interests": [
-      "Skiing",
-      "Running"
-    ]
-  },
-  {
-    "name": "Ivanna",
-    "age": 37,
-    "position": "Teacher",
-    "experienceYears": 5,
-    "interests": [
-      "Cooking",
-      "Gaming"
-    ]
-  },
-  {
-    "name": "Christopher",
-    "age": 33,
-    "position": "Architect",
-    "experienceYears": 2,
-    "interests": [
-      "Rock Climbing",
-      "Drawing"
-    ]
-  },
-  {
-    "name": "Khrystyna",
-    "age": 37,
-    "position": "Electrical Engineer",
-    "experienceYears": 4,
-    "interests": [
-      "Fashion Design"
-    ]
-  },
-  {
-    "name": "Larysa",
-    "age": 57,
-    "position": "Web Developer",
-    "experienceYears": 6,
-    "interests": [
-      "Thriller",
-      "Meditation",
-      "History"
-    ]
-  },
-  {
-    "name": "Joseph",
-    "age": 33,
-    "position": "Medical Doctor",
-    "experienceYears": 5,
-    "interests": [
-      "Dancing",
-      "Fishing"
-    ]
-  },
-  {
-    "name": "Diana",
+    "name": "Polina",
     "age": 49,
     "position": "Managing Director",
-    "experienceYears": 8,
-    "interests": [
-      "Painting",
-      "Fashion Design"
-    ]
-  },
-  {
-    "name": "Julia",
-    "age": 28,
-    "position": "Graphic Designer",
-    "experienceYears": 4,
-    "interests": [
-      "Astrology",
-      "Photography"
-    ]
-  },
-  {
-    "name": "Kateryna",
-    "age": 37,
-    "position": "Human Resources Manager",
-    "experienceYears": 8,
-    "interests": [
-      "Hiking"
-    ]
-  },
-  {
-    "name": "Elena",
-    "age": 28,
-    "position": "Graphic Designer",
-    "experienceYears": 5,
-    "interests": [
-      "Philosophy",
-      "Skiing"
-    ]
-  },
-  {
-    "name": "Tetiana",
-    "age": 45,
-    "position": "CEO",
     "experienceYears": 2,
     "interests": [
-      "Graphic Design",
-      "Philosophy"
-    ]
+      "Photography"
+    ],
+    "company": {
+      "name": "Cisco",
+      "industry": "Hospitality"
+    }
   },
   {
-    "name": "Isaac",
-    "age": 59,
-    "position": "Teacher",
+    "name": "James",
+    "age": 41,
+    "position": "Mechanical Engineer",
     "experienceYears": 4,
     "interests": [
-      "Philosophy"
-    ]
-  },
-  {
-    "name": "Elizabeth",
-    "age": 27,
-    "position": "Medical Doctor",
-    "experienceYears": 5,
-    "interests": [
-      "Scuba Diving",
-      "Astrology"
-    ]
-  },
-  {
-    "name": "Valeria",
-    "age": 51,
-    "position": "Operations Manager",
-    "experienceYears": 7,
-    "interests": [
-      "Philosophy"
-    ]
-  },
-  {
-    "name": "Daniel",
-    "age": 54,
-    "position": "Medical Doctor",
-    "experienceYears": 6,
-    "interests": [
-      "Knitting",
-      "Sailing"
-    ]
-  },
-  {
-    "name": "Yulia",
-    "age": 35,
-    "position": "Dentist",
-    "experienceYears": 3,
-    "interests": [
-      "Antiquing"
-    ]
+      "Snowboarding",
+      "Running"
+    ],
+    "company": {
+      "name": "LinkedIn",
+      "industry": "Construction"
+    }
   },
   {
     "name": "Michael",
-    "age": 35,
-    "position": "Managing Director",
-    "experienceYears": 8,
-    "interests": [
-      "Scuba Diving",
-      "Snowboarding"
-    ]
-  },
-  {
-    "name": "Maria",
-    "age": 62,
-    "position": "Photographer",
+    "age": 39,
+    "position": "Marketing Manager",
     "experienceYears": 7,
     "interests": [
-      "Graphic Design"
-    ]
+      "Skiing",
+      "Knitting",
+      "Thriller"
+    ],
+    "company": {
+      "name": "Toyota",
+      "industry": "Entertainment"
+    }
   },
   {
-    "name": "Natalie",
-    "age": 42,
-    "position": "Pharmacist",
+    "name": "Gabriel",
+    "age": 32,
+    "position": "Dentist",
     "experienceYears": 3,
     "interests": [
-      "Hiking",
-      "Listening to Music"
-    ]
+      "Learning Languages",
+      "Fantasy",
+      "Watching Movies"
+    ],
+    "company": {
+      "name": "L'Oréal",
+      "industry": "Real Estate"
+    }
   },
   {
     "name": "Valeria",
+    "age": 59,
+    "position": "Business Development Manager",
+    "experienceYears": 3,
+    "interests": [
+      "Crime",
+      "Astrology",
+      "Travelling",
+      "Fashion Design"
+    ],
+    "company": {
+      "name": "Cisco",
+      "industry": "Hospitality"
+    }
+  },
+  {
+    "name": "Matthew",
+    "age": 44,
+    "position": "Mechanical Engineer",
+    "experienceYears": 4,
+    "interests": [
+      "Collecting Coins",
+      "Volunteering",
+      "Dancing"
+    ],
+    "company": {
+      "name": "Alibaba",
+      "industry": "Media"
+    }
+  },
+  {
+    "name": "William",
+    "age": 41,
+    "position": "Logistics Coordinator",
+    "experienceYears": 4,
+    "interests": [
+      "Hiking",
+      "Knitting",
+      "Skiing"
+    ],
+    "company": {
+      "name": "Adobe",
+      "industry": "Education"
+    }
+  },
+  {
+    "name": "James",
     "age": 64,
+    "position": "Social Media Specialist",
+    "experienceYears": 4,
+    "interests": [
+      "Surfing"
+    ],
+    "company": {
+      "name": "Reddit",
+      "industry": "Transportation"
+    }
+  },
+  {
+    "name": "Samuel",
+    "age": 61,
+    "position": "Financial Analyst",
+    "experienceYears": 6,
+    "interests": [
+      "Photography",
+      "Sailing"
+    ],
+    "company": {
+      "name": "Dell",
+      "industry": "Telecommunications"
+    }
+  },
+  {
+    "name": "Viktoria",
+    "age": 29,
+    "position": "Registered Nurse",
+    "experienceYears": 7,
+    "interests": [
+      "Cycling"
+    ],
+    "company": {
+      "name": "Amazon",
+      "industry": "Real Estate"
+    }
+  },
+  {
+    "name": "Tetiana",
+    "age": 32,
+    "position": "Human Resources Manager",
+    "experienceYears": 5,
+    "interests": [
+      "Collecting Stamps"
+    ],
+    "company": {
+      "name": "NASA",
+      "industry": "Education"
+    }
+  },
+  {
+    "name": "Khrystyna",
+    "age": 57,
+    "position": "UX/UI Designer",
+    "experienceYears": 4,
+    "interests": [
+      "Learning Languages",
+      "Antiquing",
+      "Learning Languages",
+      "Gardening"
+    ],
+    "company": {
+      "name": "Amazon",
+      "industry": "Gaming"
+    }
+  },
+  {
+    "name": "Liliia",
+    "age": 59,
+    "position": "CEO",
+    "experienceYears": 2,
+    "interests": [
+      "Collecting Coins",
+      "Philosophy"
+    ],
+    "company": {
+      "name": "Amazon",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Diana",
+    "age": 40,
+    "position": "Pharmacist",
+    "experienceYears": 6,
+    "interests": [
+      "Sailing"
+    ],
+    "company": {
+      "name": "Sony",
+      "industry": "Energy"
+    }
+  },
+  {
+    "name": "Edward",
+    "age": 44,
+    "position": "Social Media Specialist",
+    "experienceYears": 0,
+    "interests": [
+      "Writing",
+      "Drawing",
+      "Listening to Music"
+    ],
+    "company": {
+      "name": "LinkedIn",
+      "industry": "Entertainment"
+    }
+  },
+  {
+    "name": "Khrystyna",
+    "age": 40,
+    "position": "Managing Director",
+    "experienceYears": 4,
+    "interests": [
+      "Meditation",
+      "Comedy"
+    ],
+    "company": {
+      "name": "Toyota",
+      "industry": "Entertainment"
+    }
+  },
+  {
+    "name": "Valeria",
+    "age": 40,
+    "position": "Procurement Specialist",
+    "experienceYears": 8,
+    "interests": [
+      "Playing Chess",
+      "Graphic Design",
+      "Playing Guitar"
+    ],
+    "company": {
+      "name": "Adobe",
+      "industry": "Retail"
+    }
+  },
+  {
+    "name": "Valeria",
+    "age": 37,
+    "position": "Accountant",
+    "experienceYears": 10,
+    "interests": [
+      "Skydiving",
+      "Cooking",
+      "Yoga"
+    ],
+    "company": {
+      "name": "Adobe",
+      "industry": "Retail"
+    }
+  },
+  {
+    "name": "Anthony",
+    "age": 39,
+    "position": "Customer Support Representative",
+    "experienceYears": 3,
+    "interests": [
+      "Drawing"
+    ],
+    "company": {
+      "name": "Facebook",
+      "industry": "Media"
+    }
+  },
+  {
+    "name": "Maria",
+    "age": 37,
+    "position": "Marketing Manager",
+    "experienceYears": 10,
+    "interests": [
+      "Yoga"
+    ],
+    "company": {
+      "name": "General Electric",
+      "industry": "Non-profit"
+    }
+  },
+  {
+    "name": "Elena",
+    "age": 61,
+    "position": "Mechanical Engineer",
+    "experienceYears": 8,
+    "interests": [
+      "Drawing",
+      "Crime",
+      "Painting"
+    ],
+    "company": {
+      "name": "Sony",
+      "industry": "Retail"
+    }
+  },
+  {
+    "name": "Alexander",
+    "age": 59,
+    "position": "Accountant",
+    "experienceYears": 8,
+    "interests": [
+      "Playing Chess",
+      "Watching Movies"
+    ],
+    "company": {
+      "name": "General Electric",
+      "industry": "Non-profit"
+    }
+  },
+  {
+    "name": "Anna",
+    "age": 32,
+    "position": "Electrical Engineer",
+    "experienceYears": 9,
+    "interests": [
+      "Playing Chess",
+      "Playing Piano"
+    ],
+    "company": {
+      "name": "Twitter",
+      "industry": "Insurance"
+    }
+  },
+  {
+    "name": "Henry",
+    "age": 33,
+    "position": "Medical Doctor",
+    "experienceYears": 8,
+    "interests": [
+      "Collecting Coins",
+      "Photography"
+    ],
+    "company": {
+      "name": "Sony",
+      "industry": "Utilities"
+    }
+  },
+  {
+    "name": "Emily",
+    "age": 53,
+    "position": "Human Resources Manager",
+    "experienceYears": 2,
+    "interests": [
+      "Antiquing",
+      "Sailing"
+    ],
+    "company": {
+      "name": "Nestlé",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Samuel",
+    "age": 41,
+    "position": "Paralegal",
+    "experienceYears": 8,
+    "interests": [
+      "Photography"
+    ],
+    "company": {
+      "name": "NASA",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Liliia",
+    "age": 57,
+    "position": "Business Development Manager",
+    "experienceYears": 10,
+    "interests": [
+      "Philosophy",
+      "Playing Piano",
+      "Playing Piano",
+      "Collecting Coins"
+    ],
+    "company": {
+      "name": "Sony",
+      "industry": "Utilities"
+    }
+  },
+  {
+    "name": "William",
+    "age": 60,
+    "position": "Network Administrator",
+    "experienceYears": 7,
+    "interests": [
+      "Thriller",
+      "Hiking"
+    ],
+    "company": {
+      "name": "Amazon",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Julia",
+    "age": 63,
     "position": "Database Administrator",
     "experienceYears": 2,
     "interests": [
-      "History",
-      "Playing Guitar"
-    ]
+      "Skydiving",
+      "Yoga"
+    ],
+    "company": {
+      "name": "Netflix",
+      "industry": "Non-profit"
+    }
+  },
+  {
+    "name": "Elizabeth",
+    "age": 63,
+    "position": "Business Development Manager",
+    "experienceYears": 1,
+    "interests": [
+      "Interior Design",
+      "Astrology",
+      "Listening to Music",
+      "Fashion Design"
+    ],
+    "company": {
+      "name": "NASA",
+      "industry": "Education"
+    }
+  },
+  {
+    "name": "Maria",
+    "age": 30,
+    "position": "Procurement Specialist",
+    "experienceYears": 9,
+    "interests": [
+      "Hiking",
+      "Thriller",
+      "Crime",
+      "Surfing"
+    ],
+    "company": {
+      "name": "SpaceX",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Valeria",
+    "age": 39,
+    "position": "Operations Manager",
+    "experienceYears": 6,
+    "interests": [
+      "Collecting Coins",
+      "Fashion Design"
+    ],
+    "company": {
+      "name": "Tesla",
+      "industry": "Retail"
+    }
+  },
+  {
+    "name": "Henry",
+    "age": 58,
+    "position": "Content Writer",
+    "experienceYears": 3,
+    "interests": [
+      "Travelling"
+    ],
+    "company": {
+      "name": "Tesla",
+      "industry": "Aerospace"
+    }
+  },
+  {
+    "name": "Kateryna",
+    "age": 31,
+    "position": "System Administrator",
+    "experienceYears": 6,
+    "interests": [
+      "Gardening",
+      "Antiquing"
+    ],
+    "company": {
+      "name": "Airbus",
+      "industry": "Aerospace"
+    }
+  },
+  {
+    "name": "Julia",
+    "age": 52,
+    "position": "Network Administrator",
+    "experienceYears": 5,
+    "interests": [
+      "Photography",
+      "Playing Piano",
+      "Collecting Stamps"
+    ],
+    "company": {
+      "name": "Twitter",
+      "industry": "Media"
+    }
+  },
+  {
+    "name": "Joseph",
+    "age": 65,
+    "position": "Accountant",
+    "experienceYears": 1,
+    "interests": [
+      "Volunteering",
+      "Photography"
+    ],
+    "company": {
+      "name": "Microsoft",
+      "industry": "Automotive"
+    }
+  },
+  {
+    "name": "Emily",
+    "age": 39,
+    "position": "Photographer",
+    "experienceYears": 10,
+    "interests": [
+      "Skydiving",
+      "Comedy",
+      "Listening to Music"
+    ],
+    "company": {
+      "name": "Qualcomm",
+      "industry": "Aerospace"
+    }
+  },
+  {
+    "name": "Kateryna",
+    "age": 42,
+    "position": "Content Writer",
+    "experienceYears": 4,
+    "interests": [
+      "Playing Chess",
+      "Birdwatching",
+      "Reading",
+      "Yoga"
+    ],
+    "company": {
+      "name": "Spotify",
+      "industry": "Real Estate"
+    }
+  },
+  {
+    "name": "Viktoria",
+    "age": 39,
+    "position": "Database Administrator",
+    "experienceYears": 7,
+    "interests": [
+      "Collecting Stamps",
+      "Thriller"
+    ],
+    "company": {
+      "name": "Siemens",
+      "industry": "Utilities"
+    }
+  },
+  {
+    "name": "Christopher",
+    "age": 64,
+    "position": "Sales Manager",
+    "experienceYears": 10,
+    "interests": [
+      "Antiquing",
+      "Paintball",
+      "Cycling"
+    ],
+    "company": {
+      "name": "General Electric",
+      "industry": "Non-profit"
+    }
+  },
+  {
+    "name": "Julia",
+    "age": 36,
+    "position": "Teacher",
+    "experienceYears": 3,
+    "interests": [
+      "Crime",
+      "Cycling",
+      "Scuba Diving",
+      "Playing Piano"
+    ],
+    "company": {
+      "name": "Nestlé",
+      "industry": "Education"
+    }
+  },
+  {
+    "name": "Tetiana",
+    "age": 32,
+    "position": "Pharmacist",
+    "experienceYears": 10,
+    "interests": [
+      "Comedy",
+      "Scuba Diving",
+      "Playing Chess"
+    ],
+    "company": {
+      "name": "Dropbox",
+      "industry": "Manufacturing"
+    }
+  },
+  {
+    "name": "Natalie",
+    "age": 53,
+    "position": "Content Writer",
+    "experienceYears": 8,
+    "interests": [
+      "Interior Design",
+      "Yoga"
+    ],
+    "company": {
+      "name": "Twitter",
+      "industry": "Entertainment"
+    }
+  },
+  {
+    "name": "Ivanna",
+    "age": 44,
+    "position": "Customer Support Representative",
+    "experienceYears": 10,
+    "interests": [
+      "Fashion Design",
+      "Philosophy"
+    ],
+    "company": {
+      "name": "Uber",
+      "industry": "Transportation"
+    }
+  },
+  {
+    "name": "Benjamin",
+    "age": 35,
+    "position": "Electrical Engineer",
+    "experienceYears": 9,
+    "interests": [
+      "Birdwatching",
+      "Skydiving"
+    ],
+    "company": {
+      "name": "Amazon",
+      "industry": "Education"
+    }
+  },
+  {
+    "name": "Elizabeth",
+    "age": 57,
+    "position": "Social Media Specialist",
+    "experienceYears": 2,
+    "interests": [
+      "Singing"
+    ],
+    "company": {
+      "name": "Airbnb",
+      "industry": "Energy"
+    }
+  },
+  {
+    "name": "Alexander",
+    "age": 59,
+    "position": "Research Analyst",
+    "experienceYears": 1,
+    "interests": [
+      "Cycling",
+      "Surfing",
+      "Scuba Diving"
+    ],
+    "company": {
+      "name": "Google",
+      "industry": "Automotive"
+    }
+  },
+  {
+    "name": "Gabriel",
+    "age": 51,
+    "position": "Architect",
+    "experienceYears": 4,
+    "interests": [
+      "Writing"
+    ],
+    "company": {
+      "name": "PayPal",
+      "industry": "Fashion"
+    }
+  },
+  {
+    "name": "Ivanna",
+    "age": 43,
+    "position": "Graphic Designer",
+    "experienceYears": 5,
+    "interests": [
+      "Yoga",
+      "Cooking",
+      "Philosophy"
+    ],
+    "company": {
+      "name": "Sony",
+      "industry": "Utilities"
+    }
+  },
+  {
+    "name": "Anthony",
+    "age": 33,
+    "position": "CEO",
+    "experienceYears": 3,
+    "interests": [
+      "Painting",
+      "Surfing",
+      "Meditation"
+    ],
+    "company": {
+      "name": "Dell",
+      "industry": "Telecommunications"
+    }
   }
 ]
