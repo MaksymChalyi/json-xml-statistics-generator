@@ -58,6 +58,7 @@ public class JSONParser {
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
+
         return employees;
     }
 
