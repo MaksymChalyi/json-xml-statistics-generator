@@ -15,7 +15,7 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.print("Введіть назву атрибута, по якому формуватиметься статистика " +
-                "(Наприклад: name, age, position, experienceYears, interests): ");
+                "(Наприклад: name, age, position, experienceYears, interests, company): ");
         String attribute = scanner.nextLine();
 
         StatisticsCalculator calculator = new StatisticsCalculator(attribute, FOLDER_PATH_TO_JSON);
