@@ -17,7 +17,7 @@ public class XmlGenerator {
      * Зберігає статистику у файл XML.
      *
      * @param attributeCountMap мапа, що містить значення атрибутів та їх кількість
-     * @param attributeName    ім'я атрибуту
+     * @param attributeName     ім'я атрибуту
      */
     public static void saveStatisticsToFile(Map<String, Integer> attributeCountMap, String attributeName, String folderPathToXml) {
         try {

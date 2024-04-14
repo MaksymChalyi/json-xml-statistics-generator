@@ -18,7 +18,7 @@ public class Main {
                 "(Наприклад: name, age, position, experienceYears, interests): ");
         String attribute = scanner.nextLine();
 
-        StatisticsCalculator calculator = new StatisticsCalculator(attribute, FOLDER_PATH_TO_JSON, FOLDER_PATH_OUT_OF_XML);
+        StatisticsCalculator calculator = new StatisticsCalculator(attribute, FOLDER_PATH_TO_JSON);
         calculator.calculateAndSaveStatistics(FOLDER_PATH_OUT_OF_XML);
     }
 

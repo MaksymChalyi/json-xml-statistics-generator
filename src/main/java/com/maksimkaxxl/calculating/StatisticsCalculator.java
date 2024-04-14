@@ -15,12 +15,10 @@ import java.util.Map;
 public class StatisticsCalculator {
     private final String attributeName;
     private final String folderPathToJson;
-    private final String folderPathToXml;
 
-    public StatisticsCalculator(String attributeName, String folderPathToJson, String folderPathToXml) {
+    public StatisticsCalculator(String attributeName, String folderPathToJson) {
         this.attributeName = attributeName;
         this.folderPathToJson = folderPathToJson;
-        this.folderPathToXml = folderPathToXml;
     }
 
     /**
@@ -29,7 +27,7 @@ public class StatisticsCalculator {
     public void calculateAndSaveStatistics(String folderPathToXml) {
         var employees = JSONParser.parseJsonFiles(folderPathToJson);
         Map<String, Integer> attributeCountMap = calculateAttributeCount(employees);
-        XmlGenerator.saveStatisticsToFile(attributeCountMap, attributeName,folderPathToXml);
+        XmlGenerator.saveStatisticsToFile(attributeCountMap, attributeName, folderPathToXml);
     }
 
     /**
