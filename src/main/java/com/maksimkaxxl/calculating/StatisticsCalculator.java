@@ -13,20 +13,23 @@ import java.util.Map;
  * Клас для обчислення та збереження статистики щодо певного атрибута у списку співробітників.
  */
 public class StatisticsCalculator {
-    private static final String FOLDER_PATH_TO_JSON = "src/main/resources/json";
     private final String attributeName;
+    private final String folderPathToJson;
+    private final String folderPathToXml;
 
-    public StatisticsCalculator(String attributeName) {
+    public StatisticsCalculator(String attributeName, String folderPathToJson, String folderPathToXml) {
         this.attributeName = attributeName;
+        this.folderPathToJson = folderPathToJson;
+        this.folderPathToXml = folderPathToXml;
     }
 
     /**
      * Обчислює та зберігає статистику щодо певного атрибута співробітників.
      */
-    public void calculateAndSaveStatistics() {
-        var employees = JSONParser.parseJsonFiles(FOLDER_PATH_TO_JSON);
+    public void calculateAndSaveStatistics(String folderPathToXml) {
+        var employees = JSONParser.parseJsonFiles(folderPathToJson);
         Map<String, Integer> attributeCountMap = calculateAttributeCount(employees);
-        XmlGenerator.saveStatisticsToFile(attributeCountMap, attributeName);
+        XmlGenerator.saveStatisticsToFile(attributeCountMap, attributeName,folderPathToXml);
     }
 
     /**

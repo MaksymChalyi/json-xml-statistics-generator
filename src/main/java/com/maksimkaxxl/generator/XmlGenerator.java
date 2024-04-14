@@ -13,15 +13,13 @@ import java.util.Map;
  * Клас, що відповідає за генерацію XML-файлів для статистики.
  */
 public class XmlGenerator {
-    private static final String FOLDER_PATH_OUT_OF_XML = "src/main/resources/xml/";
-
     /**
      * Зберігає статистику у файл XML.
      *
      * @param attributeCountMap мапа, що містить значення атрибутів та їх кількість
      * @param attributeName    ім'я атрибуту
      */
-    public static void saveStatisticsToFile(Map<String, Integer> attributeCountMap, String attributeName) {
+    public static void saveStatisticsToFile(Map<String, Integer> attributeCountMap, String attributeName, String folderPathToXml) {
         try {
             String fileName = "statistics_by_" + attributeName + ".xml";
 
@@ -37,7 +35,7 @@ public class XmlGenerator {
                 statisticsXml.addItem(new StatisticsXml.Item(entry.getKey(), entry.getValue()));
             }
 
-            xmlMapper.writeValue(new File(FOLDER_PATH_OUT_OF_XML + fileName), statisticsXml);
+            xmlMapper.writeValue(new File(folderPathToXml + fileName), statisticsXml);
             System.out.println("Statistics saved to " + fileName);
         } catch (IOException e) {
             e.printStackTrace();
