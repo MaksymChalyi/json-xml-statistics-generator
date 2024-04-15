@@ -9,6 +9,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import static com.maksimkaxxl.utils.Constants.FileConstants.STATISTICS_FILE_PREFIX;
+import static com.maksimkaxxl.utils.Constants.FileConstants.XML_EXTENSION;
+
 /**
  * Клас, що відповідає за генерацію XML-файлів для статистики.
  */
@@ -21,7 +24,7 @@ public class XmlGenerator {
      */
     public static void saveStatisticsToFile(Map<String, Integer> attributeCountMap, String attributeName, String folderPathToXml) {
         try {
-            String fileName = "statistics_by_" + attributeName + ".xml";
+            String fileName = STATISTICS_FILE_PREFIX + attributeName + XML_EXTENSION;
 
             XmlMapper xmlMapper = new XmlMapper();
             xmlMapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -38,6 +41,7 @@ public class XmlGenerator {
             xmlMapper.writeValue(new File(folderPathToXml + fileName), statisticsXml);
             System.out.println("Statistics saved to " + fileName);
         } catch (IOException e) {
+            System.out.println(e.getMessage());
             e.printStackTrace();
         }
     }
