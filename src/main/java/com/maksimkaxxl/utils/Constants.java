@@ -15,4 +15,8 @@ public class Constants {
         public static final String STATISTICS_FILE_PREFIX = "statistics_by_";
         public static final String XML_EXTENSION = ".xml";
     }
+
+    public static final class ErrorMessages {
+        public static final String INVALID_ATTRIBUTE_NAME = "Invalid attribute name";
+    }
 }

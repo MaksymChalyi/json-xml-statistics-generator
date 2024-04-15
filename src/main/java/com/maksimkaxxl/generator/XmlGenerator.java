@@ -42,7 +42,6 @@ public class XmlGenerator {
             System.out.println("Statistics saved to " + fileName);
         } catch (IOException e) {
             System.out.println(e.getMessage());
-            e.printStackTrace();
         }
     }
 }

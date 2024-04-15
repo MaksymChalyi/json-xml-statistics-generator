@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 import static com.maksimkaxxl.utils.Constants.AttributeConstants.*;
+import static com.maksimkaxxl.utils.Constants.ErrorMessages.INVALID_ATTRIBUTE_NAME;
 
 
 /**
@@ -53,7 +54,7 @@ public class StatisticsCalculator {
                     case AGE -> String.valueOf(employee.age());
                     case EXPERIENCE_YEARS -> String.valueOf(employee.experienceYears());
                     case COMPANY -> employee.company().name();
-                    default -> throw new IllegalArgumentException("Invalid attribute name");
+                    default -> throw new IllegalArgumentException(INVALID_ATTRIBUTE_NAME);
                 };
                 attributeCountMap.merge(attributeValue, 1, Integer::sum);
             }
