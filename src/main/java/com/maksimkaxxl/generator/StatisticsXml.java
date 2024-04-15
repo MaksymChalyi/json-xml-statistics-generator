@@ -14,7 +14,7 @@ import java.util.List;
 @JacksonXmlRootElement(localName = "statistics")
 public class StatisticsXml {
 
-    private List<Item> items;
+    private final List<Item> items;
 
     public StatisticsXml() {
         this.items = new ArrayList<>();
@@ -26,46 +26,16 @@ public class StatisticsXml {
         return items;
     }
 
-    public void setItems(List<Item> items) {
-        this.items = items;
-    }
-
     public void addItem(Item item) {
         this.items.add(item);
     }
 
-/**
- * Внутрішній клас, що представляє окремий елемент статистики.
- * Кожен елемент має значення та кількість входжень.
- */
-    public static class Item {
-        private String value;
-        private int count;
+    /**
+     * Внутрішній клас(record), що представляє окремий елемент статистики.
+     * Кожен елемент має значення та кількість входжень.
+     */
+    public record Item(String value,
+                       int count) {
 
-        public Item() {
-        }
-
-        public Item(String value, int count) {
-            this.value = value;
-            this.count = count;
-        }
-
-        @JacksonXmlProperty(localName = "value")
-        public String getValue() {
-            return value;
-        }
-
-        public void setValue(String value) {
-            this.value = value;
-        }
-
-        @JacksonXmlProperty(localName = "count")
-        public int getCount() {
-            return count;
-        }
-
-        public void setCount(int count) {
-            this.count = count;
-        }
     }
 }
