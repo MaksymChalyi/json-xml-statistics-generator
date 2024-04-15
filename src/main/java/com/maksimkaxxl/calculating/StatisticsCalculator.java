@@ -3,10 +3,13 @@ package com.maksimkaxxl.calculating;
 import com.maksimkaxxl.generator.XmlGenerator;
 import com.maksimkaxxl.models.Employee;
 import com.maksimkaxxl.parser.JSONParser;
+import com.maksimkaxxl.utils.Constants;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static com.maksimkaxxl.utils.Constants.AttributeConstants.*;
 
 
 /**
@@ -39,17 +42,17 @@ public class StatisticsCalculator {
     private Map<String, Integer> calculateAttributeCount(List<Employee> employees) {
         Map<String, Integer> attributeCountMap = new HashMap<>();
         for (Employee employee : employees) {
-            if (attributeName.equals("interests")) {
+            if (attributeName.equals(Constants.AttributeConstants.INTERESTS)) {
                 for (String interest : employee.interests()) {
                     attributeCountMap.merge(interest, 1, Integer::sum);
                 }
             } else {
                 String attributeValue = switch (attributeName) {
-                    case "name" -> employee.name();
-                    case "position" -> employee.position();
-                    case "age" -> String.valueOf(employee.age());
-                    case "experienceYears" -> String.valueOf(employee.experienceYears());
-                    case "company" -> employee.company().name();
+                    case NAME -> employee.name();
+                    case POSITION -> employee.position();
+                    case AGE -> String.valueOf(employee.age());
+                    case EXPERIENCE_YEARS -> String.valueOf(employee.experienceYears());
+                    case COMPANY -> employee.company().name();
                     default -> throw new IllegalArgumentException("Invalid attribute name");
                 };
                 attributeCountMap.merge(attributeValue, 1, Integer::sum);
