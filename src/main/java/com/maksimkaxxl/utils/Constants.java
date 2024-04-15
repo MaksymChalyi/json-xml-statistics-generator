@@ -1,5 +1,8 @@
 package com.maksimkaxxl.utils;
 
+/**
+ * Цей клас містить різноманітні константи, що використовуються в додатку.
+ */
 public class Constants {
 
     public static final class AttributeConstants {
